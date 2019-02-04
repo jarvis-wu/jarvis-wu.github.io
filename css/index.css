@@ -1,0 +1,143 @@
+header {
+  background-color: #fdfdfd;
+}
+
+blockquote {
+	font-size: 15px;
+  text-align: right;
+	margin: 0;
+  color: #888888;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+h2 {
+  font-size: 15px;
+  color: #666666;
+}
+
+.alert {
+  font-size: 13px;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-align: justify;
+  color: #666666;
+  font-weight: 300;
+  line-height: 1.9;
+}
+
+p.card-text {
+  text-align: left;
+}
+
+p.notice {
+  font-size: 14px;
+  color: #999999;
+}
+
+li a {
+  font-size: 14px;
+  color: #999999;
+}
+
+a.body-link {
+  color: #666666;
+}
+
+li {
+  margin: 3px -15px;
+}
+
+.active-tab {
+  color: #222222;
+}
+
+.navbar {
+  margin-top: 0px;
+  background-color: #fdfdfd;
+  border-radius: 7px;
+}
+
+.container {
+  max-width: 750px;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #fdfdfd;
+  font-size: 13px;
+}
+
+.footer-button i {
+  color: #888888;
+}
+
+blockquote {
+  color: #888888;
+  font-size: 14px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+.main-body {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+u.dotted {
+  border-bottom: 2px dotted #999999;
+  text-decoration: none;
+}
+
+u.dotted:hover {
+  border-bottom: 2px dotted black;
+}
+
+h1, h2 {
+   a {
+     color: red;
+   }
+ }
+
+.material-icons.md-16 {
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.btn {
+  border-width: thick;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-img-top {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}

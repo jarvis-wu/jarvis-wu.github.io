@@ -1,91 +1,80 @@
-<!doctype html>
-<html lang="en-US">
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Jarvis Wu">
-    <meta name="description" content="This is the personal webpage of Jarvis Zhaowei Wu.">
-    <title>Jarvis Wu</title>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Jarvis Wu</title>
   </head>
-
-  <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <body>
+    <header class="header mt-auto py-3">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Jarvis Wu</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#wip">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#wip">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <header class="masthead">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-lg-7 my-auto">
-            <div class="header-content mx-auto">
-              <h1 class="mb-5">I am a third year Software Engineering student in UWaterloo and I develop apps</h1>
-              <a href="documents/resume.pdf" class="btn btn-outline btn-xl js-scroll-trigger" target="_blank">Check out my resume!</a>
-            </div>
+        <div class="row">
+          <div class="col">
+            <span><a href="index.html"><h1>Jarvis Wu</h1></a></span>
+          </div>
+          <div class="col">
+            <span class="float-right"><blockquote>“Astra inclinant, sed non obligant.„</blockquote></span>
           </div>
         </div>
       </div>
     </header>
-    <section class="wip" id="wip">
-      <div class="wip-content">
-        <div class="container">
-          <h2>Work in Progress.<br>Stay tuned.</h2>
-          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Contact me</a>
+    <div class="container main-body">
+      <div class="row justify-content-between">
+        <div class="col-3">
+          <nav class="navbar">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a id="about" class="nav-link active-tab" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a id="projects" class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a id="work" class="nav-link" href="work.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a id="blogs" class="nav-link" href="blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a id="resume" class="nav-link" href="assets/resume.pdf" target="_blank">R&eacute;sum&eacute;</a>
+              </li>
+              <li class="nav-item">
+                <a id="misc" class="nav-link" href="misc.html">Misc</a>
+              </li>
+              <li class="nav-item">
+                <a id="contact" class="nav-link" href="mailto:jarviszwu@gmail.com">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div id="content" class="col-8">
+          <p>Hey there, I’m Jarvis, a student, a developer, a designer and a guitar player. I live in Waterloo but originally came from a small <a class="body-link" href="https://en.wikipedia.org/wiki/Wuhu" target="_blank"><u class="dotted">city</u></a> in China (by saying small I mean one with over 3.5M population since that’s China). I love to <a class="body-link" href="#"><u class="dotted">work</u></a> with awesome people, <a class="body-link" href="https://github.com/jarvis-wu" target="_blank"><u class="dotted">tinker</u></a> with interesting projects, and <a class="body-link" href="https://www.instagram.com/jarvis.z.wu/" target="_blank"><u class="dotted">shoot</u></a> beautiful photographs. Love to chat about society, people in our lives, delicious food, cool techs and a lot more.</p>
+          <p>Reach me at hi@jarviswu.me.</p>
         </div>
       </div>
-      <div class="overlay"></div>
-    </section>
-    <section class="contact" id="contact">
+    </div>
+    <footer class="footer mt-auto py-3">
       <div class="container">
-        <h2>Find me here and there</h2>
-        <ul class="list-inline list-social">
-          <li class="list-inline-item social-email">
-            <a href="mailto:jarviszwu@gmail" target="_blank">
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-github">
-            <a href="https://github.com/jarvis-wu" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-linkedin">
-            <a href="https://www.linkedin.com/in/zhwwu/" target="_blank">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <p>&copy; Jarvis Wu 2018</p>
+        <div class="row">
+          <div class="col">
+            <span class="text-muted">2018 Jarvis Wu</span>
+          </div>
+          <div class="col">
+            <span class="footer-button float-right"><a href="#" onclick="switchLanguage()"><i class="material-icons md-16">translate</i></a></span>
+          </div>
+        </div>
       </div>
     </footer>
-    <script src="scripts/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
   </body>
 </html>
